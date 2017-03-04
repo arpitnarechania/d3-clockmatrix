@@ -1,0 +1,47 @@
+body {
+    background: #fff;
+    font-family: 'open sans',arial,sans-serif;
+}
+
+svg{
+	stroke: #000;
+}
+
+.second-tick{
+	stroke-width:1;
+	fill:#000;
+}
+
+.hour-tick{
+	stroke-width:1; //same as the minute hand
+}
+
+.tooltip {
+	background: #FFF;
+	box-shadow: 0 0 5px #999999;
+	color: #000;
+	font-size: 12px;
+	left: 130px;
+	padding: 4px;
+	position: absolute;
+	text-align: center;
+	top: 95px;
+	z-index: 10;
+	display: block;
+	opacity: 0;
+}
+
+table, thead, tbody, td, th {
+    border: 1px solid black;
+    padding:5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
