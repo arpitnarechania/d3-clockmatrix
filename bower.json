@@ -1,0 +1,24 @@
+{
+  "name": "d3-clockmatrix",
+  "homepage": "https://github.com/arpitnarechania/d3-clockmatrix",
+  "authors": [
+    "Arpit Narechania <arpitnarechania@gmail.com>"
+  ],
+  "description": "open source javascript library to render clocks in a calendar type view",
+  "main": "index.html",
+  "keywords": [
+    "clock",
+    "matrix"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "3.5.17"
+  }
+}
